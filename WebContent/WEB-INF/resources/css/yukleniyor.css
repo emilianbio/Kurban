@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+#loading {
+	position: fixed;
+	z-index: 50;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:
+		url(/kurban2/WebContent/WEB-INF/resources/resimler/loading_spinner.gif)
+		no-repeat center;
+	line-height: 350px;
+	text-align: center;
+	font-size: 36px;
+	color: #353231;
+	text-indent: -9999px;
+}
+
+.v2 #loading {
+	display: none;
+}
+
+#progress-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(/resources/resimler/loading_spinner.gif)
+		no-repeat center;;
+	opacity: 0.8;
+	width: 0;
+	height: 18px;
+}
+
+#loader {
+	background:
+		url(/kurban2/WebContent/WEB-INF/resources/resimler/loading_spinner.gif)
+		no-repeat center 25%;
+	height: 100%;
+	display: block;
+}
+
+#progress {
+	display: none;
+}
